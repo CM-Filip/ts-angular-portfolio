@@ -1,0 +1,28 @@
+:host {
+  display: block;
+  padding: 1rem;
+
+  background-color: rgb(173, 220, 245);
+  color: rgb(29, 30, 39);
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 1rem;
+
+  list-style-type: none;
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(41, 41, 52);
+  }
+
+  a.active {
+    pointer-events: none;
+    color: rgb(78, 148, 78);
+  }
+}
